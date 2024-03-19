@@ -6,8 +6,8 @@ for example: my raspberry pi home directory	is /home/pi
 just unzip the archive package into this folder.
 2. grant permisson to the vim folder:
 ```bash
-sudo cp /home/pi/vim/vim/.vim* /home/pi/
-sudo chmod 777 /home/pi/vim/vim/.vim* -r
+sudo cp -Rvf /home/pi/vim/vim/.vim* /home/pi/
+sudo chmod 777 -R /home/pi/.vim* 
 ```
 # If you have error: ctaglist plugin not work properly.
 Typing this command in you terminal:
